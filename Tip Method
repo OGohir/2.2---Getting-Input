@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Tip {  
+  public static void main() { 
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("Enter restaurant bill: ");
+    double dollars = Double.parseDouble(input.nextLine());
+    
+    final double rate = 0.16;
+    double total = dollars + dollars * rate;
+    System.out.println("Your total is $" + total);
+
+    // Oops, here it is rounded to 2 decimal places.
+    System.out.format("Your total is $ %3.2f", total);
+  }
+}
