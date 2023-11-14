@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Triangle {  
+  public static void main() {
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("Enter the height of your triangle in cm: ");
+    
+    int height = input.nextInt();
+    
+    System.out.println("Enter the base of your triangle in cm: ");
+    int base = input.nextInt();  
+    
+    int area = base * height * 1/2;
+    
+    System.out.println("The area of your triangle in cm^2 is: " + area);
+
+  }
+}
