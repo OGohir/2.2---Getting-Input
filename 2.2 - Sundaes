@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Sundaes {  
+  public static void main() { 
+    Scanner input = new Scanner(System.in);
+    
+    System.out.println("Enter an icecream flavour: ");
+    
+    String flavour = input.nextLine();
+    System.out.println("Your flavour is: " + flavour);
+    
+    System.out.println("Enter a fruit: ");
+    
+    String fruit = input.nextLine();
+    System.out.println("Your fruit is: " + fruit);
+    
+    System.out.println("Enter a topping: ");
+    
+    String topping = input.nextLine();
+    System.out.println("Your topping is: " + topping);
+    
+    
+    System.out.println("One " + flavour + ", " + fruit + " sundae topped with " + topping + " coming right up!");
+    
+    
+    
+  }
+}
